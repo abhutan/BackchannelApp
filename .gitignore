@@ -1,0 +1,4 @@
+.idea
+*.log
+*.sqlite3
+tmp

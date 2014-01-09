@@ -1,0 +1,19 @@
+= form_for(@admin) do |f|
+  .field
+    = f.label :email
+    = f.text_field :email
+    %br/
+  .field
+    = f.label :name
+    = f.text_field :name
+    %br/
+  .field
+    = f.label :password
+    = f.password_field :password
+    %br/
+  .field
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation
+    %br/
+  .actions
+    = f.submit
